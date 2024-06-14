@@ -1,0 +1,87 @@
+#menuSuperior h1{
+    text-align: center;
+    color: white;
+}
+
+#menuSuperior nav{
+    display: flex;
+    justify-content: center;
+}
+
+#menuSuperior nav ul{
+    display: flex;
+}
+
+#menuSuperior nav li{
+    margin: 15px;
+    list-style-type: none;
+}
+
+#menuSuperior nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#menuSuperior{
+    background-color: orangered;
+}
+
+#Actividades{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Campamento{
+    background-color: white;
+}
+
+.clasesSurf h2{
+    color: orangered;
+}
+
+.tallerArte h2{
+    color: orangered;
+}
+
+.excursionBici h2{
+    color: orangered;
+}
+
+.Campamento img{
+    width: 400px;
+}
+
+.clasesSurf img{
+    width: 400px;
+}
+
+.tallerArte img{
+    width: 400px;
+}
+
+.excursionBici img{
+    width: 400px;
+}
+
+form h1{
+    color: orangered;
+}
+
+form{
+    text-align: center;
+}
+
+.tablaActividades{
+    color: orangered;
+}
+
+table, td, th{
+    border: 3px solid gray;
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: orangered;
+}

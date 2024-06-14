@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Recuperacion</title>
+    <link rel="stylesheet" href="../css/estiloexamen.css">
+</head>
+<body>
+    <div id="menuSuperior">
+        <h1><strong>Actividades de verano 2024</strong></h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Inscripción</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div>
+        <table>
+            <caption>Horarios de actividades</caption>
+            <thead></thead>
+            <tbody>
+                <tr>
+                    <th class="tablaActividades" scope="col">Actividad</th>
+                    <th class="tablaActividades" scope="col">Dia</th>
+                    <th class="tablaActividades" scope="col">Hora</th>
+                </tr>
+                <tr>
+                    <th scope="row">Campamento de Aventura</th>
+                    <td>Lunes</td>
+                    <td>08:00 - 18:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Clases de Surf</th>
+                    <td>Martes</td>
+                    <td>09:00 - 12:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Taller de Arte</th>
+                    <td>Miércoles</td>
+                    <td>10:00 - 14:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Excursion en Bicicleta</th>
+                    <td>Jueves</td>
+                    <td>07:00 - 12:00</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </div>
+    <div>
+        <form action="#">
+            <h1>Inscríbete en una Actividad</h1>
+            <div>
+                <div><label for="nombre">Nombre:</label></div>
+                <div><input id="nombre" name="nombre" type="text"></div>
+            </div>
+            <div>
+                <div><label for="email">Correo Electronico:</label></div>
+                <div><input id="email" name="email" type="email" required></div>
+            </div>
+            <div>
+                <div><label for="Actividad">Actividad:</label></div>
+                <select name="Actividad" id="Actividad">
+                    <option value="Campamento">Campamento de Aventura</option>
+                    <option value="clasesurf">Clases de Surf</option>
+                    <option value="tallerarte">Taller de Arte</option>
+                    <option value="excursionbici">Excursión en Bicicleta</option>
+                </select>
+            </div>
+            <div>
+                <div><label for="Comentarios">Comentarios:</label></div>
+                <div><input id="Comentarios" type="text"></div>
+            </div>
+            <button>Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
